@@ -4,14 +4,14 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <style type="text/css">
     body, html{width: 100%;height: 100%;margin:0;font-family:"微软雅黑";font-size:14px;}
-    #allmap {width:100%;height:500px;}
+    #allmap {width:100%;height:90%;}
   </style>
   <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7kjGc9UWqpMUpLwV3zG29LjkkZwG58Pd "></script>
   <title>逆地址解析</title>
 </head>
 <body>
   <div id="allmap"></div>
-  <p>点击地图展示详细地址</p>
+  <p id="luguoPoint">显示坐标点</p>
 </body>
 </html>
 <script type="text/javascript">
@@ -23,7 +23,8 @@
 
   map.addEventListener("click", function(e){        
     var pt = e.point;
-    document.title = pt+"";  
+    document.title = ""+pt.lng+lt.lat;
+    document.getElementById("luguoPoint").value() = document.title;
   });
 
 
