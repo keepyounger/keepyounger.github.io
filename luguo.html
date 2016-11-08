@@ -23,10 +23,9 @@
 
   map.addEventListener("click", function(e){        
     var pt = e.point;
-    document.title = ""+pt.lng+lt.lat;
-    document.getElementById("luguoPoint").value() = document.title;
+    var luguoPoint = document.getElementById("luguoPoint");
+    luguoPoint.innerHTML = "经度：" + pt.lng + ",&nbsp;&nbsp;" + " 维度：" + pt.lat;
+    document.title = pt.lng + "," + pt.lat;
   });
-
-
 
 </script>
