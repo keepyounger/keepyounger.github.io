@@ -11,7 +11,7 @@
 </head>
 <body>
   <div id="allmap"></div>
-  <p id="luguoPoint">显示坐标点</p>
+  <p id="luguoPoint" style="margin-left: 10px;">显示坐标点</p>
 </body>
 </html>
 <script type="text/javascript">
@@ -20,12 +20,25 @@
   var point = new BMap.Point(116.331398,39.897445);
   map.centerAndZoom(point,12);
   var geoc = new BMap.Geocoder();    
+  var marker;
 
   map.addEventListener("click", function(e){        
     var pt = e.point;
+    map.removeOverlay(marker);
+    marker = new BMap.Marker(pt);  // 创建标注
+    map.addOverlay(marker);
+
     var luguoPoint = document.getElementById("luguoPoint");
-    luguoPoint.innerHTML = "经度：" + pt.lng + ",&nbsp;&nbsp;" + " 维度：" + pt.lat;
+    luguoPoint.innerHTML = "经度:" + pt.lng + ",&nbsp;&nbsp;" + " 维度:" + pt.lat;
     document.title = pt.lng + "," + pt.lat;
+
+    geoc.getLocation(pt, function(rs){
+      var addComp = rs.addressComponents;
+      var address = addComp.province + " " + addComp.city + " " + addComp.district + " " + addComp.street + " " + addComp.streetNumber;
+      document.title = document.title + "," + address;
+      luguoPoint.innerHTML = address + " (" + luguoPoint.innerHTML + ")";
+    }); 
+
   });
 
 </script>
