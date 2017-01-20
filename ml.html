@@ -8,7 +8,7 @@
 <script type="text/javascript">
     function downloadFile(fileName, content){
         var aLink = document.getElementById('downloadVPN');
-        var blob = new Blob([content]);
+        var blob = new Blob([content], {type: "application/javascript"});
         var evt = document.createEvent("HTMLEvents");
         evt.initEvent("click", true, false);//initEvent 不加后两个参数在FF下会报错, 感谢 Barret Lee 的反馈
         aLink.download = fileName;
