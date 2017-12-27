@@ -15,7 +15,7 @@
 					<key>DefaultProtocolMask</key>
 					<integer>3</integer>
 					<key>Name</key>
-					<string>cmnet</string>
+					<string>3gnet</string>
 					<key>Password</key>
 					<string>Gerge@zx133M#</string>
 					<key>ProxyPort</key>
