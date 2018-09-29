@@ -9,32 +9,25 @@
 			<array>
 				<dict>
 					<key>AllowedProtocolMask</key>
-					<integer>2</integer>
+					<integer>3</integer>
 					<key>AllowedProtocolMaskInRoaming</key>
-					<integer>2</integer>
+					<integer>3</integer>
 					<key>DefaultProtocolMask</key>
-					<integer>2</integer>
+					<integer>3</integer>
 					<key>Name</key>
-					<string>ipv6</string>
+					<string>CTNET</string>
 				</dict>
 			</array>
-			<key>AttachAPN</key>
-			<dict>
-				<key>AllowedProtocolMask</key>
-				<integer>2</integer>
-				<key>Name</key>
-				<string>ipv6</string>
-			</dict>
 			<key>PayloadDescription</key>
 			<string>配置蜂窝移动数据设置</string>
 			<key>PayloadDisplayName</key>
 			<string>蜂窝移动网络</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.cellular.0A953686-504B-4B11-933A-2A109EBFF11B</string>
+			<string>com.apple.cellular.96A5BF99-8CEB-4047-B7B8-FD4D0548EBF6</string>
 			<key>PayloadType</key>
 			<string>com.apple.cellular</string>
 			<key>PayloadUUID</key>
-			<string>0A953686-504B-4B11-933A-2A109EBFF11B</string>
+			<string>96A5BF99-8CEB-4047-B7B8-FD4D0548EBF6</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -48,7 +41,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>1E97E56A-239B-4927-B6A3-8989ED9B13CB</string>
+	<string>8CA458CA-3DA2-49A1-8D1E-6DC08E6BD3B7</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
