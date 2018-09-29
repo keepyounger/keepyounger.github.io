@@ -15,7 +15,7 @@
 					<key>DefaultProtocolMask</key>
 					<integer>3</integer>
 					<key>Name</key>
-					<string>CTNET</string>
+					<string>3gnet</string>
 				</dict>
 			</array>
 			<key>PayloadDescription</key>
@@ -23,11 +23,11 @@
 			<key>PayloadDisplayName</key>
 			<string>蜂窝移动网络</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.cellular.96A5BF99-8CEB-4047-B7B8-FD4D0548EBF6</string>
+			<string>com.apple.cellular.515A27DD-D7A8-4029-946D-B9269CA8A5F9</string>
 			<key>PayloadType</key>
 			<string>com.apple.cellular</string>
 			<key>PayloadUUID</key>
-			<string>96A5BF99-8CEB-4047-B7B8-FD4D0548EBF6</string>
+			<string>515A27DD-D7A8-4029-946D-B9269CA8A5F9</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -41,7 +41,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>8CA458CA-3DA2-49A1-8D1E-6DC08E6BD3B7</string>
+	<string>B76528C5-F5FC-41F9-9D2F-95FBE9C62492</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
