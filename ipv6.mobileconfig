@@ -9,25 +9,32 @@
 			<array>
 				<dict>
 					<key>AllowedProtocolMask</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>AllowedProtocolMaskInRoaming</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>DefaultProtocolMask</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Name</key>
 					<string>ipv6</string>
 				</dict>
 			</array>
+			<key>AttachAPN</key>
+			<dict>
+				<key>AllowedProtocolMask</key>
+				<integer>2</integer>
+				<key>Name</key>
+				<string>ipv6</string>
+			</dict>
 			<key>PayloadDescription</key>
 			<string>配置蜂窝移动数据设置</string>
 			<key>PayloadDisplayName</key>
 			<string>蜂窝移动网络</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.cellular.625270AF-7332-49B8-ABF8-D9C7496F77EC</string>
+			<string>com.apple.cellular.0A953686-504B-4B11-933A-2A109EBFF11B</string>
 			<key>PayloadType</key>
 			<string>com.apple.cellular</string>
 			<key>PayloadUUID</key>
-			<string>625270AF-7332-49B8-ABF8-D9C7496F77EC</string>
+			<string>0A953686-504B-4B11-933A-2A109EBFF11B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -35,13 +42,13 @@
 	<key>PayloadDisplayName</key>
 	<string>未命名</string>
 	<key>PayloadIdentifier</key>
-	<string>lixydeMacBook-Pro.5A91238F-6832-48DF-9084-69C9CC147DD4</string>
+	<string>lixydeMacBook-Pro.85225877-758F-4ECC-8507-E47F0C3B3588</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>5DEC2606-D616-4373-AE52-700BCAC93F76</string>
+	<string>1E97E56A-239B-4927-B6A3-8989ED9B13CB</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
