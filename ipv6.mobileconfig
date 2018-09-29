@@ -9,11 +9,11 @@
 			<array>
 				<dict>
 					<key>AllowedProtocolMask</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>AllowedProtocolMaskInRoaming</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>DefaultProtocolMask</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Name</key>
 					<string>3gnet</string>
 				</dict>
@@ -23,11 +23,11 @@
 			<key>PayloadDisplayName</key>
 			<string>蜂窝移动网络</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.cellular.515A27DD-D7A8-4029-946D-B9269CA8A5F9</string>
+			<string>com.apple.cellular.4BE4B152-311F-4214-A941-2E0A5C941D95</string>
 			<key>PayloadType</key>
 			<string>com.apple.cellular</string>
 			<key>PayloadUUID</key>
-			<string>515A27DD-D7A8-4029-946D-B9269CA8A5F9</string>
+			<string>4BE4B152-311F-4214-A941-2E0A5C941D95</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -41,7 +41,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>B76528C5-F5FC-41F9-9D2F-95FBE9C62492</string>
+	<string>49445D04-C45B-4345-8D1A-35429C0C5795</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
