@@ -33,7 +33,7 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>未命名</string>
+	<string>联通IPV6</string>
 	<key>PayloadIdentifier</key>
 	<string>lixydeMacBook-Pro.85225877-758F-4ECC-8507-E47F0C3B3588</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -41,7 +41,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>4C571956-4C98-4058-AE06-D86ACFBC18B7</string>
+	<string>062C3BB0-0FF3-4399-8E15-479636D07681</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
