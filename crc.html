@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>陈如昌的名片</title>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+
+			.topBg {
+				height: 189px;
+				background: url(source/headBg.jpg);
+				background-size: 100% auto;
+				position: relative;
+			}
+
+			.topInfoBg {
+				position: absolute;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				height: 131px;
+				padding: 15px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.headerImage {
+				height: 88px;
+				width: 88px;
+				padding: 0 15px;
+				border-radius: 50%;
+			}
+
+			.info {
+				display: flex;
+				flex-direction: column;
+				flex-grow: 1;
+				color: white;
+			}
+
+			.info .name {
+				font-size: 24px;
+				margin-bottom: 2px;
+				line-height: 1.6;
+			}
+
+			.info .other {
+				font-size: 16px;
+				margin-bottom: 2px;
+				line-height: 1.2;
+			}
+
+			.space {
+				height: 10px;
+				background: #f5f5f5;
+			}
+
+			.cell {
+				height: 56px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 16px;
+				text-decoration: none;
+			}
+
+			.cellName {
+				color: #8a8d91;
+				margin: 0 10px;
+				flex-basis: 65px;
+			}
+
+			.cellValue {
+				color: #2c2e32;
+				flex-grow: 1;
+				padding-left: 10px;
+			}
+
+			.line {
+				margin-left: 10px;
+				height: 1px;
+				background: #e0e0e0;
+			}
+
+			.image {
+				width: 100%;
+			}
+
+			.imageEvent {
+				height: 82px;
+				padding: 20px 10px;
+				background: white;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				text-decoration: none;
+			}
+
+			.imageEvent img {
+				width: 28px;
+				height: 28px;
+			}
+
+			.imageEvent span {
+				margin-top: 5px;
+				font-size: 12px;
+				color: #666;
+			}
+
+			.nameTitle {
+				height: 55px;
+				padding: 15px;
+				line-height: 55px;
+				font-size: 16px;
+				color: #0b0b0b;
+				font-weight: 700;
+			}
+
+			.saveBg {
+				height: 66px;
+				background: white;
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+			}
+
+			.save {
+				border-radius: 10px;
+				background: #26ab28;
+				line-height: 46px;
+				height: 46px;
+				color: white;
+				font-size: 14px;
+				text-align: center;
+				margin: 10px;
+			}
+
+			.save:hover {
+				background: #219923;
+			}
+
+			#maskBg {
+				position: fixed;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+
+			.mask {
+				position: fixed;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: #00000050;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+			}
+		</style>
+		<script type="text/javascript">
+			function showWechat() {
+				var maskBg = document.getElementById('maskBg');
+				maskBg.removeAttribute("hidden");
+			}
+
+			function hiddenQR() {
+				var maskBg = document.getElementById('maskBg');
+				maskBg.hidden = "hidden";
+			}
+		</script>
+	</head>
+	<body>
+		<div class="topBg">
+			<div class="topInfoBg">
+				<img class="headerImage" src="source/head.jpg">
+				<div class="info">
+					<span class="name">陈如昌</span>
+					<span class="other">健康顾问</span>
+					<span class="other">新时代健康产业（集团）有限公司</span>
+				</div>
+			</div>
+		</div>
+		<div class="space"></div>
+		<a class="cell" href="tel://13375479210">
+			<span class="cellName">移动电话</span>
+			<span class="cellValue">13375479210</span>
+		</a>
+		<div class="line"></div>
+		<a class="cell" href="tel://18205478718">
+			<span class="cellName">移动电话</span>
+			<span class="cellValue">18205478718</span>
+		</a>
+		<div class="space"></div>
+		<div class="cell" onclick="showWechat();">
+			<span class="cellName">微信号</span>
+			<span class="cellValue">点击关注加微信</span>
+		</div>
+		<div class="line"></div>
+		<a class="cell" href="http://www.5dgz.com">
+			<span class="cellName">主页网址</span>
+			<span class="cellValue">http://www.5dgz.com</span>
+		<a>
+		<div class="space"></div>
+		<a class="cell" href="map2.html?lng=116.12480570072&lat=35.801606249716">
+			<span class="cellName">地址</span>
+			<span class="cellValue">山东省济宁市梁山县</span>
+		</a>
+		<div class="space"></div>
+		<img class="image" src="source/image1.jpg">
+		<a class="imageEvent" href="http://www.5dgz.com/zt/2016nianhui/">
+			<img src="source/net.png">
+			<span>新时代健康产业集团2016年年会</span>
+		</a>
+		<div class="space"></div>
+		<img class="image" src="source/image2.jpg">
+		<a class="imageEvent" href="http://www.5dgz.com/zt/20161116/index.html">
+			<img src="source/net.png">
+			<span>日夜呵护 时刻优“牙”</span>
+		</a>
+		<div class="space"></div>
+		<img class="image" src="source/image3.jpg">
+		<a class="imageEvent" href="http://www.5dgz.com/zt/20161028/index.html">
+			<img src="source/net.png">
+			<span>香兰阁润妍系列、活肤养颜系列护肤品10月30日焕新上市</span>
+		</a>
+		<div class="space"></div>
+		<img class="image" src="source/image4.jpg">
+		<a class="imageEvent" href="http://www.5dgz.com/ebook/item.aspx?ebookid=48">
+			<img src="source/net.png">
+			<span>国珍E刊-2016年10月刊精选</span>
+		</a>
+		<div class="space"></div>
+		<span class="nameTitle">公司奖金制度</span>
+		<img class="image" src="source/image5.png">
+		<img class="image" src="source/textImage1.png">
+		<img class="image" src="source/textImage2.png">
+		<img class="image" src="source/textImage3.png">
+		<div class="space"></div>
+		<img class="image" src="source/image6.jpg">
+		<img class="image" src="source/image7.jpg">
+		<div class="space"></div>
+		<span class="nameTitle">公司背景与实力</span>
+		<img class="image" src="source/image8.jpg">
+		<img class="image" src="source/textImage4.png">
+		<div class="space"></div>
+		<img class="image" src="source/image9.jpg">
+		<img class="image" src="source/textImage5.png">
+		<div class="space"></div>
+		<img class="image" src="source/image10.jpg">
+		<img class="image" src="source/image11.jpg">
+		<img class="image" src="source/image12.jpg">
+		<img class="image" src="source/image13.jpg">
+		<img class="image" src="source/image14.jpg">
+		<img class="image" src="source/textImage6.png">
+		<div class="space" style="height: 76px;"></div>
+		<div class="saveBg">
+			<div class="line" style="margin-left: 0;"></div>
+			<div class="save" onclick="showWechat();">保存到通讯录</div>
+		</div>
+		<div id="maskBg" hidden="hidden">
+			<div class="mask">
+				<img src="source/wechat.jpg" style="width: 60%; height: auto;">
+				<div onclick="hiddenQR();" style="color: white; margin-top: 30px; font-size: 20px;">关闭</div>
+			</div>
+		</div>
+	</body>
+</html>
