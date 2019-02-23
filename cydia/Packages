@@ -1,14 +1,15 @@
 Package: com.lixy.LayerLook
 Version: 0.1-1
 Architecture: iphoneos-arm
-Depends: firmware (>= 5.0), mobilesubstrate
+Maintainer: KeepYounger
+Depends: mobilesubstrate
 Filename: debs/com.lixy.LayerLook_0.1-1_iphoneos-arm.deb
-Size: 825390
-MD5sum: eac8c94e84ba9a8a18ee5177c11f1954
-SHA1: 4ed440ab3c8642962423d11cb72d4031405a2b62
-SHA256: 326cc29d648397d1e165f0a21f65adf30af387ddd513142c9940ce5765595e08
+Size: 393660
+MD5sum: d67c08207d26e1b387a651a7a0e7a694
+SHA1: 0c8ab0f2930c26650524734daa40dba730396728
+SHA256: 811103e113235ab53548b133bdc6aa702101fc436a8b3b0f8c9bd7b2ba6e2744
 Section: Tweaks
-Priority: optional
+Description: Enable checking layer in every app
 Author: lixy
 Name: LayerLook
 
