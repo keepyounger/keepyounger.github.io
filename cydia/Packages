@@ -3,12 +3,28 @@ Version: 0.1-1
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/com.lixy.LayerLook_0.1-1_iphoneos-arm.deb
-Size: 825400
-MD5sum: fed457ea3533c9d912edc906169d422d
-SHA1: 127fe391ea0a0f0a01a1cf6d164b6251b771e4bf
-SHA256: 632f51570739aa38ee11c1bf28fcddb99bffe274ac16fad9f9a6bb823a5dbef7
+Size: 825390
+MD5sum: eac8c94e84ba9a8a18ee5177c11f1954
+SHA1: 4ed440ab3c8642962423d11cb72d4031405a2b62
+SHA256: 326cc29d648397d1e165f0a21f65adf30af387ddd513142c9940ce5765595e08
 Section: Tweaks
 Priority: optional
 Author: lixy
 Name: LayerLook
+
+Package: me.chichou.webinspect-global
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: codecolorist
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/me.chichou.webinspect-global_0.0.1-1+debug_iphoneos-arm.deb
+Size: 4434
+MD5sum: 63c0b930f66e39c775d6c18b55c8dad2
+SHA1: 89065622fc367d9aaf96ae98edc12f2c989efa51
+SHA256: 45cb0444766dc0daefcce0c104feafb7b512d5409ac97c29766a910db687de93
+Section: Tweaks
+Description: Enable webview remote inspect for every app
+Author: codecolorist
+Name: webinspect
 
