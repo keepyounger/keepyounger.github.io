@@ -1,0 +1,9 @@
+Origin: KeepYounger
+Label: KeepYounger
+Suite: stable
+Version: 1.0
+Codename: BigBoss
+Support: http://keepyounger.com
+Architectures: iphoneos-arm
+Components: main
+Description: keepyounger's cydia

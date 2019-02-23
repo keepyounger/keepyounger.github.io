@@ -1,0 +1,14 @@
+Package: com.lixy.LayerLook
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.lixy.LayerLook_0.1-1_iphoneos-arm.deb
+Size: 825400
+MD5sum: fed457ea3533c9d912edc906169d422d
+SHA1: 127fe391ea0a0f0a01a1cf6d164b6251b771e4bf
+SHA256: 632f51570739aa38ee11c1bf28fcddb99bffe274ac16fad9f9a6bb823a5dbef7
+Section: Tweaks
+Priority: optional
+Author: lixy
+Name: LayerLook
+
