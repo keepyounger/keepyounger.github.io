@@ -1,17 +1,32 @@
 Package: com.lixy.LayerLook
-Version: 0.1-1
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: KeepYounger
 Depends: mobilesubstrate
-Filename: debs/com.lixy.LayerLook_0.1-1_iphoneos-arm.deb
-Size: 393660
-MD5sum: d67c08207d26e1b387a651a7a0e7a694
-SHA1: 0c8ab0f2930c26650524734daa40dba730396728
-SHA256: 811103e113235ab53548b133bdc6aa702101fc436a8b3b0f8c9bd7b2ba6e2744
+Filename: debs/com.lixy.LayerLook_1.0_iphoneos-arm.deb
+Size: 393664
+MD5sum: e421952e379b7140f0b214a3c645f4cb
+SHA1: 80a4401714a64a66973003e30baa94247bb4dc96
+SHA256: 554feed701ca167fb5bebfcfd9ae42316229ca96ade984d253ee9938467be309
 Section: Tweaks
-Description: Enable checking layer in every app
+Description: 四指长按开启/关闭APP内调试（FLEX）
 Author: lixy
 Name: LayerLook
+
+Package: com.lixy.MGTVCrack
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: KeepYounger
+Depends: mobilesubstrate
+Filename: debs/com.lixy.MGTVCrack_1.0_iphoneos-arm.deb
+Size: 12454
+MD5sum: 60a8bab5b8f5713e021484c0db990541
+SHA1: 1cb4bd706c388d663413a49c138c6931125acd5b
+SHA256: 4e08a70c8d58aa1bf2a6ec74828b3b93f045951d09fef2b2b1774d29466d27a3
+Section: Tweaks
+Description: 芒果TV去广告
+Author: lixy
+Name: MGTVCrack
 
 Package: me.chichou.webinspect-global
 Version: 0.0.1-1+debug
