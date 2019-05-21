@@ -1,3 +1,22 @@
+Package: Reveal2Loader
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: duyongchao <duyongchao.h@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader, com.zidaneno5.ExtensionList
+Conflicts: com.rheard.rhrevealloader, com.rheard.reveal-loader
+Replaces: com.rheard.rhrevealloader, com.rheard.reveal-loader
+Filename: debs/Reveal2Loader_1.0-3_iphoneos-arm.deb
+Size: 4338590
+MD5sum: e2045b2175b162f3cc358ce6040834d8
+SHA1: 4f5eab14294fdf7a268d801a953c6bddfa7872b3
+SHA256: f947d2fbdf55e9c227c4e73116ec20ca19af41b27728fb47e77497d5b2b6fcf8
+Section: System
+Priority: optional
+Description: dynamically loads Reveal v21(11690) into applications and plugins.
+Author: duyongchao <duyongchao.h@gmail.com>
+Dev: zidaneno5
+Name: Reveal2Loader
+
 Package: com.lixy.LayerLookLoader
 Version: 1.0
 Architecture: iphoneos-arm
