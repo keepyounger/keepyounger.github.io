@@ -47,6 +47,37 @@ Description: 芒果TV去广告
 Author: lixy
 Name: MGTVCrack
 
+Package: com.lixy.WoodpeckerLoader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: KeepYounger
+Depends: mobilesubstrate
+Filename: debs/com.lixy.WoodpeckerLoader_1.0_iphoneos-arm.deb
+Size: 5690704
+MD5sum: 14d24f1e4b2ab2de5c44f97aa8950ee6
+SHA1: b6092da73c5e6239a3e6f4ef2cf2b24ce1b5e577
+SHA256: 09325fd5e4efc9fb979bbbf3dc92a219e12d03c9e6f51e7c2b3e2092ef4c5621
+Section: Tweaks
+Description: WoodpeckerLoader
+Author: lixy
+Name: WoodpeckerLoader
+
+Package: com.nablac0d3.sslkillswitch2
+Version: 0.13-1+debug
+Architecture: iphoneos-arm
+Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
+Installed-Size: 116
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.nablac0d3.sslkillswitch2_0.13.deb
+Size: 8864
+MD5sum: 0ff3a6148d41cea66ce10408c7cf1246
+SHA1: 27f15a7f3cef4950645cf2baa752ed68ab2921d4
+SHA256: fe30e1678f258f8c3ed7e4ce137301f430871f006c32d75ec23e0d33f59e2252
+Section: Tweaks
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Author: Alban Diquet <nabla.c0d3@gmail.com>
+Name: SSL Kill Switch 2
+
 Package: me.chichou.webinspect-global
 Version: 0.0.1-1+debug
 Architecture: iphoneos-arm
