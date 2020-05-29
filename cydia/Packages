@@ -6,10 +6,10 @@ Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader, com.zida
 Conflicts: com.rheard.rhrevealloader, com.rheard.reveal-loader
 Replaces: com.rheard.rhrevealloader, com.rheard.reveal-loader
 Filename: debs/Reveal2Loader_1.0-3_iphoneos-arm.deb
-Size: 4338590
-MD5sum: e2045b2175b162f3cc358ce6040834d8
-SHA1: 4f5eab14294fdf7a268d801a953c6bddfa7872b3
-SHA256: f947d2fbdf55e9c227c4e73116ec20ca19af41b27728fb47e77497d5b2b6fcf8
+Size: 4222412
+MD5sum: f12e000a613d119f4ff8c38f12cff9f0
+SHA1: 296d990b0d82999e9614b01b8007b37bb920e6f7
+SHA256: fbbe4a040d67fa5750259ec8856acd14a4ea8df330a803f4bf846b4652be6560
 Section: System
 Priority: optional
 Description: dynamically loads Reveal v21(11690) into applications and plugins.
@@ -53,10 +53,10 @@ Architecture: iphoneos-arm
 Maintainer: KeepYounger
 Depends: mobilesubstrate
 Filename: debs/com.lixy.WoodpeckerLoader_1.0_iphoneos-arm.deb
-Size: 5690704
-MD5sum: 14d24f1e4b2ab2de5c44f97aa8950ee6
-SHA1: b6092da73c5e6239a3e6f4ef2cf2b24ce1b5e577
-SHA256: 09325fd5e4efc9fb979bbbf3dc92a219e12d03c9e6f51e7c2b3e2092ef4c5621
+Size: 2392324
+MD5sum: 8d6f8b819d0265e7e28071a4ec93f653
+SHA1: 55e4d3fbb3da84b9d322ad490efc3a8c28bff567
+SHA256: 376516b0a6c52120a598e30de44b9a9a6ad1aaf8aca27afcf0f4e3166b75bbdc
 Section: Tweaks
 Description: WoodpeckerLoader
 Author: lixy
@@ -79,16 +79,16 @@ Author: Alban Diquet <nabla.c0d3@gmail.com>
 Name: SSL Kill Switch 2
 
 Package: me.chichou.webinspect-global
-Version: 0.0.1-1+debug
+Version: 0.1.0-3+debug
 Architecture: iphoneos-arm
 Maintainer: codecolorist
-Installed-Size: 104
+Installed-Size: 152
 Depends: mobilesubstrate
-Filename: debs/me.chichou.webinspect-global_0.0.1-1+debug_iphoneos-arm.deb
-Size: 4434
-MD5sum: 63c0b930f66e39c775d6c18b55c8dad2
-SHA1: 89065622fc367d9aaf96ae98edc12f2c989efa51
-SHA256: 45cb0444766dc0daefcce0c104feafb7b512d5409ac97c29766a910db687de93
+Filename: debs/me.chichou.webinspect-global_0.1.0-1+debug_iphoneos-arm.deb
+Size: 5142
+MD5sum: 38056384d5724ded4d6553fce8106ca3
+SHA1: 18031e68283f0fe72dfff6ebc33d4acd3c2b92cb
+SHA256: 6ff128c5b64b0c51b1ab6f86e6cc10f1afa516a62b1aa6c9eb5c074441402620
 Section: Tweaks
 Description: Enable webview remote inspect for every app
 Author: codecolorist
