@@ -63,32 +63,32 @@ Author: lixy
 Name: WoodpeckerLoader
 
 Package: com.nablac0d3.sslkillswitch2
-Version: 0.13-1+debug
+Version: 0.14-3+debug
 Architecture: iphoneos-arm
 Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
-Installed-Size: 116
+Installed-Size: 84
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.nablac0d3.sslkillswitch2_0.13.deb
-Size: 8864
-MD5sum: 0ff3a6148d41cea66ce10408c7cf1246
-SHA1: 27f15a7f3cef4950645cf2baa752ed68ab2921d4
-SHA256: fe30e1678f258f8c3ed7e4ce137301f430871f006c32d75ec23e0d33f59e2252
+Filename: debs/com.nablac0d3.sslkillswitch2_0.14.deb
+Size: 7392
+MD5sum: 41ebada26cdb598d0072594208d14921
+SHA1: 2da0a7d75aef0444aabb0c5f5e9a30610edcc1bc
+SHA256: 4cfc2e49e7cda20365ce7d222eacc43202bcd3dcd9107f45869c1b589f7237f8
 Section: Tweaks
 Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
 Author: Alban Diquet <nabla.c0d3@gmail.com>
 Name: SSL Kill Switch 2
 
 Package: me.chichou.webinspect-global
-Version: 0.1.0-4+debug
+Version: 0.1.0-1+debug
 Architecture: iphoneos-arm
 Maintainer: codecolorist
 Installed-Size: 152
 Depends: mobilesubstrate
-Filename: debs/me.chichou.webinspect-global_0.1.0-4+debug_iphoneos-arm.deb
-Size: 5150
-MD5sum: 691563b32933c7487a8d456143183b2a
-SHA1: a4be6933e1cee6257b5a65d4c060a7d34d5cd004
-SHA256: d39cb55281e3c820e573aef48bc8ad5c3fabfe1ce971652746267e6da705716f
+Filename: debs/me.chichou.webinspect-global_0.1.0-1+debug_iphoneos-arm.deb
+Size: 5146
+MD5sum: b591709f9f22517735a48bcd8a30cb69
+SHA1: 531fad5ee80bb1b2904da91ed70b2c1be2f72e45
+SHA256: 4c0020f59565c35dc3f87d6a00c8d012dff184764621fb4ce5dc6341799ffdfd
 Section: Tweaks
 Description: Enable webview remote inspect for every app
 Author: codecolorist
