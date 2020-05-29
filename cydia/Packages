@@ -79,16 +79,16 @@ Author: Alban Diquet <nabla.c0d3@gmail.com>
 Name: SSL Kill Switch 2
 
 Package: me.chichou.webinspect-global
-Version: 0.1.0-1+debug
+Version: 0.0.1-6+debug
 Architecture: iphoneos-arm
 Maintainer: codecolorist
-Installed-Size: 152
+Installed-Size: 104
 Depends: mobilesubstrate
-Filename: debs/me.chichou.webinspect-global_0.1.0-1+debug_iphoneos-arm.deb
-Size: 5146
-MD5sum: b591709f9f22517735a48bcd8a30cb69
-SHA1: 531fad5ee80bb1b2904da91ed70b2c1be2f72e45
-SHA256: 4c0020f59565c35dc3f87d6a00c8d012dff184764621fb4ce5dc6341799ffdfd
+Filename: debs/me.chichou.webinspect-global_0.0.1-6+debug_iphoneos-arm.deb
+Size: 4176
+MD5sum: 06b061b13e8d4cba9ff00b8c975d2ddd
+SHA1: 0de1eca37d3de6d0273ac9e7d2fe91bebfa5d515
+SHA256: 518cbf892d8f6c0785f3caba21df20adfa68fa61b56e7cc111fe1aa7a8358735
 Section: Tweaks
 Description: Enable webview remote inspect for every app
 Author: codecolorist
