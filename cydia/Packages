@@ -23,10 +23,10 @@ Architecture: iphoneos-arm
 Maintainer: KeepYounger
 Depends: mobilesubstrate
 Filename: debs/com.lixy.LayerLookLoader_1.0_iphoneos-arm.deb
-Size: 447292
-MD5sum: 17cd14afaf93f3deb0e9dec0254aad04
-SHA1: 115e6ae0a5b2e4ac8d00739ddb3fdb5dc9638cb5
-SHA256: 5659bd4072a71b448904d4c0caf984535afc7fe84696d032b6c6d8435259c247
+Size: 909122
+MD5sum: 1b20f24ccebdd73d647d132b97fa1871
+SHA1: 5cdf2d66d1fef488dadddf1a6e4011863416a87f
+SHA256: df12033f2bd5f11a87dffdb926399fedd4e78387b2edf05469b12d73168d5d16
 Section: Tweaks
 Description: 四指长按开启/关闭APP内调试（FLEX）
 Author: lixy
